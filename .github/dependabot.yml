@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Mettre à jour les GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: ".github/workflows"   # répertoire racine du repo
+    schedule:
+      interval: "weekly"  # vérifie les mises à jour chaque semaine
+    allow:
+      - dependency-type: "direct"
+    ignore:
+      - dependency-name: "aquasecurity/trivy-action"
+        versions: ["<0.28.0"]  # ignore les versions antérieures à 0.28.0
