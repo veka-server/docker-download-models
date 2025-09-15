@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: ".github/workflows"   # répertoire racine du repo
     schedule:
-      interval: "weekly"  # vérifie les mises à jour chaque semaine
+      interval: "daily"  # vérifie les mises à jour chaque semaine
     allow:
       - dependency-type: "direct"
     ignore:
