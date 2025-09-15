@@ -37,8 +37,8 @@ download_urls /models/unet \
   "https://huggingface.co/Kijai/HunyuanVideo_comfy/resolve/main/hunyuan_video_I2V-Q8_0.gguf?download=true" "hunyuan_video_I2V-Q8_0.gguf" \
   "https://huggingface.co/Aitrepreneur/FLX/resolve/main/Wan2.1-VACE-14B-Q4_K_S.gguf?download=true" "wan2.1-VACE-14B-Q4_K_S.gguf" \
   "https://huggingface.co/silveroxides/Chroma-GGUF/resolve/main/chroma-unlocked-v31/chroma-unlocked-v31-Q5_0.gguf" "chroma-unlocked-v31-Q5_0.gguf" \
-  "https://huggingface.co/bullerwins/FLUX.1-Kontext-dev-GGUF/resolve/main/flux1-kontext-dev-Q6_K.gguf" "flux1-kontext-dev-Q6_K.gguf"
-  "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf"
+  "https://huggingface.co/bullerwins/FLUX.1-Kontext-dev-GGUF/resolve/main/flux1-kontext-dev-Q6_K.gguf" "flux1-kontext-dev-Q6_K.gguf" \
+  "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf"
 
 # CLIP
@@ -79,6 +79,6 @@ download_urls /models/checkpoints \
 
 # LORAS
 download_urls /models/loras \
-  "https://huggingface.co/Aitrepreneur/FLX/resolve/main/Wan21_CausVid_14B_T2V_lora_rank32.safetensors?download=true" "Wan21_CausVid_lora.safetensors"
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors" "wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors"
+  "https://huggingface.co/Aitrepreneur/FLX/resolve/main/Wan21_CausVid_14B_T2V_lora_rank32.safetensors?download=true" "Wan21_CausVid_lora.safetensors" \
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors" "wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors" \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors" "wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors"
