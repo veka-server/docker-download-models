@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    needs: scan   # dépend du job "scan"
 
     steps:
     - name: Checkout repository
