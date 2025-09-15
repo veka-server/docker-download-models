@@ -34,9 +34,15 @@ jobs:
       - name: Build Docker image
         run: docker build -t $IMAGE .
 
+      - name: Get latest Trivy Action version
+        id: trivy
+        run: |
+          LATEST=$(curl -s https://api.github.com/repos/aquasecurity/trivy-action/releases/latest | jq -r .tag_name)
+          echo "TRIVY_VERSION=$LATEST" >> $GITHUB_ENV
+    
       # 5️⃣ Scan de l'image avec Trivy
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@latest
+        uses: aquasecurity/trivy-action@${{ env.TRIVY_VERSION }}
         with:
           image-ref: ${{ env.IMAGE }}
           format: table
