@@ -42,7 +42,7 @@ jobs:
     
       # 5️⃣ Scan de l'image avec Trivy
       - name: Scan image with Trivy
-        uses: aquasecurity/trivy-action@${{ env.TRIVY_VERSION }}
+        uses: aquasecurity/trivy-action@v0.0.0
         with:
           image-ref: ${{ env.IMAGE }}
           format: table
