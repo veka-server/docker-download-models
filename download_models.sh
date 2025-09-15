@@ -78,3 +78,13 @@ download_urls /models/checkpoints \
 # LORAS
 download_urls /models/loras \
   "https://huggingface.co/Aitrepreneur/FLX/resolve/main/Wan21_CausVid_14B_T2V_lora_rank32.safetensors?download=true" "Wan21_CausVid_lora.safetensors"
+
+
+# --- Suppression automatique du conteneur ---
+if [ -S /var/run/docker.sock ]; then
+    CONTAINER_ID=$(hostname)
+    echo "Suppression automatique du conteneur $CONTAINER_ID..."
+    docker --host unix:///var/run/docker.sock rm -f $CONTAINER_ID
+else
+    echo "Socket Docker non disponible, le conteneur ne peut pas se supprimer lui-même."
+fi
