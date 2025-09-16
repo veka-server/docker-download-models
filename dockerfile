@@ -3,10 +3,10 @@ FROM alpine:latest
 
 # Metadata
 LABEL maintainer="veka-server"
-LABEL description="Downloader container for models with wget"
+LABEL description="Downloader container for models with aria2"
 
 # Installer les dépendances nécessaires
-RUN apk add --no-cache wget git git-lfs coreutils
+RUN apk add --no-cache wget git git-lfs aria2 coreutils
 
 # Copier le script de téléchargement dans l'image
 COPY download_models.sh /download_models.sh
