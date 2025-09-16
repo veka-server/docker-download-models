@@ -16,12 +16,8 @@ download_urls() {
             local target="$dest_dir/$(basename "${url%%\?*}")"
         fi
 
-        if [ ! -f "$target" ]; then
-            echo "➡️ Téléchargement : $target"
-            wget -nv -O "$target" "$url"
-        else
-            echo "✅ Déjà présent : $target"
-        fi
+        echo "➡️ Téléchargement (reprise si interrompu) : $target"
+        aria2c -c -x 16 -s 16 -k 1M -d "$dest_dir" -o "$(basename "$target")" "$url"
     done
 }
 
