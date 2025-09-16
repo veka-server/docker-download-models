@@ -17,7 +17,7 @@ download_urls() {
         fi
 
         echo "➡️ Téléchargement (reprise si interrompu) : $target"
-        aria2c -c -x 16 -s 16 -k 1M -d "$dest_dir" -o "$(basename "$target")" "$url"
+        aria2c -c -x 16 -s 16 -k 1M  --console-log-level=error -d "$dest_dir" -o "$(basename "$target")" "$url"
     done
 }
 
