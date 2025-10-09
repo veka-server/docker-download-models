@@ -58,7 +58,8 @@ download_urls /models/vae \
   "https://huggingface.co/foxmail/flux_vae/resolve/main/ae.safetensors?download=true" "ae_flux.safetensors" \
   "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true" "hv_vae_bf16.safetensors" \
   "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/vae/ae.safetensors?download=true" "ae_hidream.safetensors" \
-  "https://huggingface.co/Aitrepreneur/FLX/resolve/main/wan_2.1_vae.safetensors?download=true" "wan_2.1_vae.safetensors"
+  "https://huggingface.co/Aitrepreneur/FLX/resolve/main/wan_2.1_vae.safetensors?download=true" "wan_2.1_vae.safetensors" \
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors" "wan2.2_vae.safetensors" 
 
 # DIFFUSION MODELS
 download_urls /models/diffusion_models \
