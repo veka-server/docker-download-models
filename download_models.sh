@@ -83,4 +83,6 @@ download_urls /models/loras \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors" "wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors" \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors" "wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors" \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors" \
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" \
+  "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_HIGH.safetensors" "DR34ML4Y_I2V_14B_HIGH.safetensors" \
+  "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_LOW.safetensors" "DR34ML4Y_I2V_14B_LOW.safetensors"
