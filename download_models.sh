@@ -38,7 +38,9 @@ download_urls /models/unet \
   "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" \
-  "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q4_1.gguf" "Qwen-Image-Edit-2509-Q4_1.gguf"
+  "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q4_1.gguf" "Qwen-Image-Edit-2509-Q4_1.gguf" \
+  "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q5_0.gguf" "Qwen-Image-Edit-2509-Q5_0.gguf" \
+  "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q8_0.gguf" "Qwen-Image-Edit-2509-Q8_0.gguf"
 
 # CLIP
 download_urls /models/clip \
