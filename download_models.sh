@@ -37,7 +37,8 @@ download_urls /models/unet \
   "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-LowNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-T2V-A14B-HighNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" \
-  "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf"
+  "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" \
+  "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q4_1.gguf" "Qwen-Image-Edit-2509-Q4_1.gguf"
 
 # CLIP
 download_urls /models/clip \
@@ -52,7 +53,8 @@ download_urls /models/text_encoders \
   "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors?download=true" "t5xxl_fp8_e4m3fn_scaled.safetensors" \
   "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/llama_3.1_8b_instruct_fp8_scaled.safetensors?download=true" "llama_3.1_8b_fp8_scaled.safetensors" \
   "https://huggingface.co/Aitrepreneur/FLX/resolve/main/umt5_xxl_fp8_e4m3fn_scaled.safetensors" "umt5_xxl_fp8_scaled.safetensors" \
-  "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors" "umt5-xxl-enc-fp8_e4m3fn.safetensors"
+  "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors" "umt5-xxl-enc-fp8_e4m3fn.safetensors" \
+  "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors" "qwen_2.5_vl_7b_fp8_scaled.safetensors"
 
 # VAE
 download_urls /models/vae \
@@ -60,7 +62,8 @@ download_urls /models/vae \
   "https://huggingface.co/Comfy-Org/HunyuanVideo_repackaged/resolve/main/split_files/vae/hunyuan_video_vae_bf16.safetensors?download=true" "hv_vae_bf16.safetensors" \
   "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/vae/ae.safetensors?download=true" "ae_hidream.safetensors" \
   "https://huggingface.co/Aitrepreneur/FLX/resolve/main/wan_2.1_vae.safetensors?download=true" "wan_2.1_vae.safetensors" \
-  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors" "wan2.2_vae.safetensors" 
+  "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors" "wan2.2_vae.safetensors" \
+  "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors" "qwen_image_vae.safetensors"
 
 # DIFFUSION MODELS
 download_urls /models/diffusion_models \
@@ -85,4 +88,5 @@ download_urls /models/loras \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors" \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" \
   "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_HIGH.safetensors" "DR34ML4Y_I2V_14B_HIGH.safetensors" \
-  "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_LOW.safetensors" "DR34ML4Y_I2V_14B_LOW.safetensors"
+  "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_LOW.safetensors" "DR34ML4Y_I2V_14B_LOW.safetensors" \
+  "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors" "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors"
