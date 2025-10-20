@@ -78,7 +78,8 @@ download_urls /models/clip_vision \
 download_urls /models/checkpoints \
   "https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/resolve/main/all_in_one/ace_step_v1_3.5b.safetensors?download=true" "ace_step_v1_3.5b.safetensors" \
   "https://huggingface.co/boricuapab/Bagel-7B-MoT-fp8/resolve/main/ema-fp8.safetensors" "bagel7b_ema-fp8.safetensors" \
-  "https://huggingface.co/cyberdelia/CyberIllustrious/resolve/main/CyberIllustrious_V4.safetensors" "CyberIllustrious_V4.safetensors"
+  "https://huggingface.co/cyberdelia/CyberIllustrious/resolve/main/CyberIllustrious_V4.safetensors" "CyberIllustrious_V4.safetensors" \
+  "https://huggingface.co/Zacckory10/biglove-photo2-sdxl/resolve/main/bigLove_photo2.safetensors" "bigLove_photo2.safetensors"
 
 # LORAS
 download_urls /models/loras \
