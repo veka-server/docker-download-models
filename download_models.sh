@@ -79,7 +79,8 @@ download_urls /models/checkpoints \
   "https://huggingface.co/Comfy-Org/ACE-Step_ComfyUI_repackaged/resolve/main/all_in_one/ace_step_v1_3.5b.safetensors?download=true" "ace_step_v1_3.5b.safetensors" \
   "https://huggingface.co/boricuapab/Bagel-7B-MoT-fp8/resolve/main/ema-fp8.safetensors" "bagel7b_ema-fp8.safetensors" \
   "https://huggingface.co/cyberdelia/CyberIllustrious/resolve/main/CyberIllustrious_V4.safetensors" "CyberIllustrious_V4.safetensors" \
-  "https://huggingface.co/Zacckory10/biglove-photo2-sdxl/resolve/main/bigLove_photo2.safetensors" "bigLove_photo2.safetensors"
+  "https://huggingface.co/Zacckory10/biglove-photo2-sdxl/resolve/main/bigLove_photo2.safetensors" "bigLove_photo2.safetensors" \
+  "https://huggingface.co/Aero666/Biglove.Xl4/resolve/main/bigLove_xl4.safetensors" "bigLove_xl4.safetensors"
 
 # LORAS
 download_urls /models/loras \
@@ -90,4 +91,5 @@ download_urls /models/loras \
   "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" "wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors" \
   "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_HIGH.safetensors" "DR34ML4Y_I2V_14B_HIGH.safetensors" \
   "https://huggingface.co/litzyfitzy/WAN_DR34ML4Y/resolve/main/DR34ML4Y_I2V_14B_LOW.safetensors" "DR34ML4Y_I2V_14B_LOW.safetensors" \
-  "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors" "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors"
+  "https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors" "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors" \
+  "https://huggingface.co/tianweiy/DMD2/resolve/main/dmd2_sdxl_4step_lora_fp16.safetensors" "dmd2_sdxl_4step_lora_fp16.safetensors"
