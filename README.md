@@ -1,9 +1,7 @@
 # docker-download-models
 docker image for download my ai models 
 
-![Docker Pulls](https://img.shields.io/github/v/release/veka-server/docker-download-models?label=GHCR)
-
-![Build Docker](https://github.com/veka-server/docker-download-models/actions/workflows/build-central.yml/badge.svg)
+![Docker Pulls](https://img.shields.io/github/v/release/veka-server/docker-download-models?label=GHCR) ![Build Docker](https://github.com/veka-server/docker-download-models/actions/workflows/build-central.yml/badge.svg)
 
 
 ```bash
