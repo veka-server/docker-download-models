@@ -80,7 +80,8 @@ download_urls /models/checkpoints \
   "https://huggingface.co/boricuapab/Bagel-7B-MoT-fp8/resolve/main/ema-fp8.safetensors" "bagel7b_ema-fp8.safetensors" \
   "https://huggingface.co/cyberdelia/CyberIllustrious/resolve/main/CyberIllustrious_V4.safetensors" "CyberIllustrious_V4.safetensors" \
   "https://huggingface.co/Zacckory10/biglove-photo2-sdxl/resolve/main/bigLove_photo2.safetensors" "bigLove_photo2.safetensors" \
-  "https://huggingface.co/Aero666/Biglove.Xl4/resolve/main/bigLove_xl4.safetensors" "bigLove_xl4.safetensors"
+  "https://huggingface.co/Aero666/Biglove.Xl4/resolve/main/bigLove_xl4.safetensors" "bigLove_xl4.safetensors" \
+  "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V7.0_FP16.safetensors" "CyberRealisticXLPlay_V7.0_FP16.safetensors"
 
 # LORAS
 download_urls /models/loras \
