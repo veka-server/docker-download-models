@@ -58,7 +58,7 @@ download_urls /models/vae \
 # CHECKPOINTS
 download_urls /models/checkpoints \
   "https://huggingface.co/Aero666/Biglove.Xl4/resolve/main/bigLove_xl4.safetensors" "bigLove_xl4.safetensors" \
-  "https://huggingface.co/John6666/wai-nsfw-illustrious-sdxl-v150-sdxl/resolve/main/unet/diffusion_pytorch_model.safetensors" "wai-nsfw-illustrious-sdxl-v150-sdxl"
+  "https://huggingface.co/John6666/wai-nsfw-illustrious-sdxl-v150-sdxl/resolve/main/unet/diffusion_pytorch_model.safetensors" "wai-nsfw-illustrious-sdxl-v150-sdxl.safetensors"
 
 # LORAS
 download_urls /models/loras \
