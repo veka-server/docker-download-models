@@ -38,7 +38,8 @@ download_urls /models/unet \
 # TEXT ENCODERS
 download_urls /models/text_encoders \
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors" "umt5-xxl-enc-fp8_e4m3fn.safetensors" \
-  "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors" "qwen_2.5_vl_7b_fp8_scaled.safetensors"
+  "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors" "qwen_2.5_vl_7b_fp8_scaled.safetensors" \
+  "https://huggingface.co/Lockout/qwen3-4b-heretic-zimage/resolve/main/qwen-4b-zimage-hereticV2-q8.gguf" "qwen-4b-zimage-hereticV2-q8.gguf"
 
 # VAE
 download_urls /models/vae \
