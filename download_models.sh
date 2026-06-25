@@ -30,7 +30,8 @@ download_urls /models/unet \
   "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-HighNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" "Wan2.2-I2V-A14B-LowNoise-Q4_K_M.gguf" \
   "https://huggingface.co/QuantStack/Qwen-Image-Edit-2509-GGUF/resolve/main/Qwen-Image-Edit-2509-Q8_0.gguf" "Qwen-Image-Edit-2509-Q8_0.gguf" \
-  "https://huggingface.co/unsloth/Z-Image-Turbo-GGUF/resolve/main/z-image-turbo-Q8_0.gguf" "z_image_turbo-Q8_0.gguf"
+  "https://huggingface.co/unsloth/Z-Image-Turbo-GGUF/resolve/main/z-image-turbo-Q8_0.gguf" "z_image_turbo-Q8_0.gguf" \
+  "https://huggingface.co/realrebelai/KREA-2_GGUFs/resolve/main/BASE/Krea-2-Base-Q8_0.gguf" "Krea-2-Base-Q8_0.gguf"
 
 # CLIP
 #download_urls /models/clip \
@@ -39,7 +40,8 @@ download_urls /models/unet \
 download_urls /models/text_encoders \
   "https://huggingface.co/Kijai/WanVideo_comfy/resolve/main/umt5-xxl-enc-fp8_e4m3fn.safetensors" "umt5-xxl-enc-fp8_e4m3fn.safetensors" \
   "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors" "qwen_2.5_vl_7b_fp8_scaled.safetensors" \
-  "https://huggingface.co/Lockout/qwen3-4b-heretic-zimage/resolve/main/qwen-4b-zimage-hereticV2-q8.gguf" "qwen-4b-zimage-hereticV2-q8.gguf"
+  "https://huggingface.co/Lockout/qwen3-4b-heretic-zimage/resolve/main/qwen-4b-zimage-hereticV2-q8.gguf" "qwen-4b-zimage-hereticV2-q8.gguf" \
+  "https://huggingface.co/Comfy-Org/Qwen3-VL/resolve/8bb77f7ad334bc594cd68c0c48e868abd1e0f719/text_encoders/qwen3vl_4b_fp8_scaled.safetensors" "qwen3vl_4b_fp8_scaled.safetensors"
 
 # VAE
 download_urls /models/vae \
